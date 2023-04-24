@@ -21,3 +21,13 @@ Este paso es importante cuando se trabaja en equipo.
 No se recomienda hacer cambios en la WEB
 trackin debe ser LOCAL - WEB - CADA INTEGRANTE
 inicio WEB - LOCAL continuar
+
+-----PASOS SIGUIENTES CON RAMAS------
+Paso #001   LOCAL ------  git init (inicializar repositorio )
+Paso #002   LOCAL ------  git branch (validar la rama en la que estamos )
+Paso #003   LOCAL ------  git checkout nombre-rama (cambiar de rama )
+Paso #004   LOCAL ------  git add . (agregar los archivos al repositorio)
+Paso #005   LOCAL ------  git status (sirve para revisar que esten agregados)
+Paso #006   LOCAL ------  git commit -m "ACTUALIZACIÓN" (agregar la referencia que )
+Paso #007   WEB   ------  git push --set-upstream origin rama3 (subir al git hub en la rama3)
+Paso #007   WEB   ------  git push -u origin rama3 (mismo paso anterior abreviado)
