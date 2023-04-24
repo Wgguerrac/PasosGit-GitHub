@@ -9,10 +9,12 @@ Paso #007   WEB   ------  git push -u origin main (asociar la rama y subir)
 Paso #008   LOCAL ------  cls o clear (limpia la termina)
 -----PASOS SIGUIENTES------
 Paso #001   LOCAL ------  git init (inicializar repositorio )
-Paso #002   LOCAL ------  git add . (agregar los archivos al repositorio)
-Paso #003   LOCAL ------  git status (sirve para revisar que esten agregados)
-Paso #004   LOCAL ------  git commit -m "ACTUALIZACIÓN" (agregar la referencia que )
-Paso #005   WEB   ------  git push (subir al git hub)
+Paso #002   LOCAL ------  git branch (validar la rama en la que estamos )
+Paso #003   LOCAL ------  git checkout nombre-rama (cambiar de rama )
+Paso #004   LOCAL ------  git add . (agregar los archivos al repositorio)
+Paso #005   LOCAL ------  git status (sirve para revisar que esten agregados)
+Paso #006   LOCAL ------  git commit -m "ACTUALIZACIÓN" (agregar la referencia que )
+Paso #007   WEB   ------  git push (subir al git hub)
 -----DESCARGA WEB------
 Paso #001   LOCAL ------  git pull (bajar al pc las ultimas actualizaciones subidas )
 Este paso es importante cuando se trabaja en equipo.
