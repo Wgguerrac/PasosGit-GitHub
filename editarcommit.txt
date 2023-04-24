@@ -1,6 +1,9 @@
 Cambios
 Puedes agregar modificaciones al último cambio
 
+# git log (ver logs expandidos Q para salir)
+# git log --oneline (ver log comprimidos) 
+
 # sin editar el mensaje del último commit
 git commit --amend --no-edit
 
