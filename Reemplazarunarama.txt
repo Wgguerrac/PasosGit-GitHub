@@ -1,0 +1,29 @@
+# Paso 1
+# Crea la rama local main y pásale el historial de la rama master
+git branch -m master main
+
+
+# Paso 2
+# Haz un push de la nueva rama local main en el repositorio remoto de GitHub
+git push -u origin main
+
+
+# Paso 3
+# Cambia el HEAD actual a la rama main
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+# Paso 4
+Cambia la rama default de master a main en tu repositorio de GitHub .
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch
+
+# Paso 5
+# Elimina la rama master del repositorio remoto
+git push origin --delete master
+
+Para reemplazar la rama master por main en Git globalmente.
+git config --global init.defaultBranch main
+
+# ayuda en la terminal
+git comando -h
+# ayuda en el navegador
+git help comando

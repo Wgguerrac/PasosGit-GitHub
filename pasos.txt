@@ -2,9 +2,9 @@
 Paso #001   LOCAL ------  git init (inicializar repositorio )
 Paso #002   LOCAL ------  git add . (agregar los archivos al repositorio)
 Paso #003   LOCAL ------  git commit -m "primeros archivos" (agregar la referencia que )
-Paso #004   LOCAL ------  git status (sirve para revisar que esten agregados)
-Paso #005   WEB   ------  git remote add origin XXXXXX  (añadir el remote)
-Paso #006   WEB   ------  git branch -M main (crear la rama)
+Paso #004   LOCAL ------  git branch -M main (crear la rama)
+Paso #005   LOCAL ------  git status (sirve para revisar que esten agregados)
+Paso #006   WEB   ------  git remote add origin XXXXXX  (añadir el remote)
 Paso #007   WEB   ------  git push -u origin main (asociar la rama y subir)
 Paso #008   LOCAL ------  cls o clear (limpia la termina)
 -----PASOS SIGUIENTES------
