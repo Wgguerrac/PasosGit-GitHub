@@ -1,0 +1,7 @@
+Clonar repositorios
+
+en vs code se ejecuta:
+git clone https://github.com/usuario/repositorio.git (es un enlace https tomado desde github)
+
+cuando ya termino la clonación a la pc se realiza lo siguiente:
+después aplicamos los pasos para carga de un repositorio nuevo y listo
